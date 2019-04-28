@@ -38,11 +38,11 @@ Enter your choice:
 ```
 
 ## Examples
-![example_1d_dielectric_slab.yaml](doc/example_1d_dielectric_slab_eh.gif])
-![example_1d_dielectric_slab.yaml](doc/example_1d_dielectric_slab_fft.gif])
-![example_1d_quarterwavelength_transformer.yaml](doc/example_1d_dielectric_slab_eh.gif])
-![example_1d_quarterwavelength_transformer.yaml](doc/example_1d_dielectric_slab_fft.gif])
-![default2d.yaml](doc/default2d.gif])
+![example_1d_dielectric_slab.yaml](doc/example_1d_dielectric_slab_eh.gif)
+![example_1d_dielectric_slab.yaml](doc/example_1d_dielectric_slab_fft.gif)
+![example_1d_quarterwavelength_transformer.yaml](doc/example_1d_dielectric_slab_eh.gif)
+![example_1d_quarterwavelength_transformer.yaml](doc/example_1d_dielectric_slab_fft.gif)
+![default2d.yaml](doc/default2d.gif)
 
 ## License
 
