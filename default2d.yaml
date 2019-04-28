@@ -1,0 +1,18 @@
+{
+  "config": {
+    "processor": "Plot2D()",
+    "error": 1.0e-3,
+    "steps": 1500,
+    "fmin": 0,
+    "fmax": 10.0e+9,
+    "nfreq": 100,
+    "d": 0.0025,
+    "n": [101,51,1],
+    "er": 1,
+    "ur": 1,
+    "sources": {
+      "source2": "TotalFieldScatteredSource(self.solver, tau=0.5 / self.config['config']['fmax'], pos=(10,slice(0,51),0),E=(0,0,1), H=(0,1,0))",
+      "sink1": "DirichletBoundaryCondition(self.solver,  pos='(((nx-55)**2+(ny-25)**2<25)&(nd==2))', efield=True)"
+    }
+  }
+}

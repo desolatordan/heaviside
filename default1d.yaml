@@ -1,0 +1,23 @@
+{
+  "config": {
+    "processor": "Plot1D()",
+    "breakpoints": [],
+    "error": 1.0e-3,
+    "steps": 1500,
+    "fmin": 0,
+    "fmax": 5.0e+9,
+    "nfreq": 1000,
+    "d": 0.0029979,
+    "n": [1,1,203],
+    "er": [1,1],
+    "ur": 1,
+    "sources": {
+      "source2": "TotalFieldScatteredSource(self.solver, tau=0.5 / self.solver.fmax, pos=(0,0,101),E=(0,1,0), H=(-1,0,0))",
+      "sink3": "PerfectAbsorbingBoundary(self.solver, pos=(0,0,0), efield=True)",
+      "sink4": "PerfectAbsorbingBoundary(self.solver, pos=(0,0,-1), efield=False)"
+    }
+  }
+}
+
+
+
